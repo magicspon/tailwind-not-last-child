@@ -1,4 +1,4 @@
-# Writing mode not last child
+# Not last child
 
 Currently this only works with padding and margin
 
