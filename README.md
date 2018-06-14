@@ -1,4 +1,6 @@
-# Writing mode Tailwind Plugin
+# Writing mode not last child
+
+Currently this only works with padding and margin
 
 ## Installation
 
