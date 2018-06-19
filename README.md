@@ -16,7 +16,7 @@ It will generate a not:(:last-child) selector for each of the padding/margin pro
 eg.
 
 ```html
-	<div class="not:last-mb-0-75"></div>
+	<div class="not-last-mb-0-75"></div>
 ```
 
 ## Usage

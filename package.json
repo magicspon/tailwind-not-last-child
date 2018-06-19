@@ -1,6 +1,6 @@
 {
 	"name": "tailwind-not-last-child",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "Writing mode plugin for tailwindcss framework",
 	"main": "index.js",
 	"scripts": {
@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/com:magicspon/tailwind-not-last-child.git"
+		"url": "git+https://github.com/magicspon/tailwind-not-last-child.git"
 	},
 	"keywords": [
 		"tailwind",
@@ -19,9 +19,9 @@
 	"author": "dave stockley",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/com:magicspon/tailwind-not-last-child/issues"
+		"url": "https://github.com/magicspon/tailwind-not-last-child/issues"
 	},
-	"homepage": "https://github.com/com:magicspon/tailwind-not-last-child#readme",
+	"homepage": "https://github.com/magicspon/tailwind-not-last-child#readme",
 	"dependencies": {
 		"ramda": "^0.25.0"
 	}
