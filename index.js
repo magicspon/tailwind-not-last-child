@@ -26,7 +26,7 @@ module.exports = function (opts = {}) {
 						switch (pref) {
 							case '':
 								prop = {
-									[`.not\\:last-${char}-${key}:not(:last-child)`]: {
+									[`.not-last-${char}-${key}:not(:last-child)`]: {
 										[type]: value
 									}
 								}
@@ -34,35 +34,35 @@ module.exports = function (opts = {}) {
 
 							case 't':
 								prop = {
-									[`.not\\:last-${char}t-${key}:not(:last-child)`]: {
+									[`.not-last-${char}t-${key}:not(:last-child)`]: {
 										[`${type}-top`]: value
 									}
 								}
 								break
 							case 'b':
 								prop = {
-									[`.not\\:last-${char}b-${key}:not(:last-child)`]: {
+									[`.not-last-${char}b-${key}:not(:last-child)`]: {
 										[`${type}-bottom`]: value
 									}
 								}
 								break
 							case 'l':
 								prop = {
-									[`.not\\:last-${char}l-${key}:not(:last-child)`]: {
+									[`.not-last-${char}l-${key}:not(:last-child)`]: {
 										[`${type}-left`]: value
 									}
 								}
 								break
 							case 'r':
 								prop = {
-									[`.not\\:last-${char}r-${key}:not(:last-child)`]: {
+									[`.not-last-${char}r-${key}:not(:last-child)`]: {
 										[`${type}-right`]: value
 									}
 								}
 								break
 							case 'x':
 								prop = {
-									[`.not\\:last-${char}x-${key}:not(:last-child)`]: {
+									[`.not-last-${char}x-${key}:not(:last-child)`]: {
 										[`${type}-right`]: value,
 										[`${type}-left`]: value
 									}
@@ -70,7 +70,7 @@ module.exports = function (opts = {}) {
 								break
 							case 'y':
 								prop = {
-									[`.not\\:last-${char}y-${key}:not(:last-child)`]: {
+									[`.not-last-${char}y-${key}:not(:last-child)`]: {
 										[`${type}-top`]: value,
 										[`${type}-bottom`]: value
 									}
